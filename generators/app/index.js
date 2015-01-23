@@ -126,11 +126,11 @@ var CodeDeckGenerator = yeoman.generators.Base.extend({
 		// ROOT
 		// Root level files
 		this.copy('gruntfile.js', 'gruntfile.js');
-		this.copy('.bowerrc', '.bowerrc');
-		this.copy('.gitignore', '.gitignore');
-		this.copy('.gitattributes', '.gitattributes');
-		this.copy('.editorconfig', '.editorconfig');
-		this.copy('.jshintrc', '.jshintrc');
+		this.copy('bowerrc', '.bowerrc');
+		this.copy('gitignore', '.gitignore');
+		this.copy('gitattributes', '.gitattributes');
+		this.copy('editorconfig', '.editorconfig');
+		this.copy('jshintrc', '.jshintrc');
 		this.template('_README.md', 'README.md', context);
 		this.template('_LICENSE.md', 'LICENSE.md', context);
 		this.template('_package.json', 'package.json', context);
