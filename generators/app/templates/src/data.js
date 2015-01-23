@@ -32,54 +32,47 @@ var data = {
 			slides: [
 				{
 					title: 'This is the 1st slide',
-					uniqueContent: '
-						<pre>
-							<code>
-var coolFunction = function() {
-    console.log("This is block of code.");
-};
-							</code>
-						</pre>
-					'
+					uniqueContent: '\
+						<pre>\
+							<code>\
+var coolFunction = function() {\
+    console.log("This is block of code.");\
+};\
+							</code>\
+						</pre>'
 				},
 				{
 					title: 'This is the 2nd slide',
-					uniqueContent: '
-						<p>This is a paragraph.</p>
-					'
+					uniqueContent: '<p>This is a paragraph.</p>'
 				},
 				{
 					title: 'This is the 3rd slide',
-					uniqueContent: '
-						This is a <strong>strong</strong> element.
-					'
+					uniqueContent: 'This is a <strong>strong</strong> element.'
 				},
 				{
 					title: 'This is the 4th slide',
-					uniqueContent: '
-						<ul>
-							<li>This is an unordered list.</li>
-							<li>You can make items appear...</li>
-							<li class="fragment">one</li>
-							<li class="fragment">at</li>
-							<li class="fragment">a</li>
-							<li class="fragment">time.</li>
-							<li class="fragment">You can use ordered lists too.</li>
-						</ul>
+					uniqueContent: '\
+						<ul>\
+							<li>This is an unordered list.</li>\
+							<li>You can make items appear...</li>\
+							<li class="fragment">one</li>\
+							<li class="fragment">at</li>\
+							<li class="fragment">a</li>\
+							<li class="fragment">time.</li>\
+							<li class="fragment">You can use ordered lists too.</li>\
+						</ul>\
 					'
 				},
 				{
 					title: 'This is the 5th slide',
-					uniqueContent: '
-						<iframe class="stretch" src="//www.youtube.com/embed/XQu8TTBmGhA" frameborder="0" allowfullscreen></iframe>
-					'
+					uniqueContent: '<iframe class="stretch" src="//www.youtube.com/embed/XQu8TTBmGhA" frameborder="0" allowfullscreen></iframe>'
 				},
 				{
 					title: 'This is the 6th slide',
-					uniqueContent: '
-						<blockquote>
-							"This is a quoteblock." - Some cool dude.
-						</blockquote>
+					uniqueContent: '\
+						<blockquote>\
+							"This is a quoteblock." - Some cool dude.\
+						</blockquote>\
 					'
 				}
 			]
@@ -90,9 +83,7 @@ var coolFunction = function() {
 			slides: [
 				{
 					title: 'This is the 1st slide',
-					uniqueContent: '
-						<p>You can add more sections and slides inside of <span class="code">src/data.js</span>.</p>
-					'
+					uniqueContent: '<p>You can add more sections and slides inside of <span class="code">src/data.js</span>.</p>'
 				}
 			]
 		}

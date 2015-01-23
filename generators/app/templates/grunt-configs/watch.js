@@ -51,6 +51,14 @@ module.exports = function(grunt) {
 			],
 			tasks: [
 			]
+		},
+		data: {
+			files: [
+				'<%= gruntScope.dataFiles %>'
+			],
+			tasks: [
+				'copy:data'
+			]
 		}
 	});
 };

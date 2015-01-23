@@ -12,7 +12,8 @@ module.exports = function(grunt) {
       src: [
         '<%= gruntScope.distHtmlFiles %>',
         '<%= gruntScope.distMainCssFile %>',
-        '<%= gruntScope.distMainJsFile %>'
+        '<%= gruntScope.distMainJsFile %>',
+        'dist/data.js'
       ]
     },
     options: {

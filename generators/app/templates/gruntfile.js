@@ -60,6 +60,11 @@ module.exports = function(grunt) {
 		// IMAGES
 		srcImageFiles: [
 			'src/images/**/*.{png,jpg,gif,svg}'
+		],
+
+		//DATA
+		dataFiles: [
+			'src/data.js'
 		]
 	};
 
