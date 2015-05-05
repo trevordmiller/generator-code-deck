@@ -1,46 +1,46 @@
 {
-    "name": "generator-code-deck",
-    "version": "1.3.3",
-    "description": "Powerpoint for coders: automatically build code-based slideshow presentations.",
-    "license": "MIT",
-    "main": "generators/app/index.js",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/trevordmiller/generator-code-deck"
-    },
-    "author": {
-        "name": "Trevor D. Miller",
-        "email": "trevordmiller@icloud.com",
-        "url": "www.trevordmiller.com"
-    },
-    "engines": {
-        "node": ">=0.10.0"
-    },
-    "scripts": {
-        "test": "mocha"
-    },
-    "keywords": [
-        "yeoman-generator",
-        "generator-reveal",
-        "revealjs",
-        "reveal.js",
-        "slideshow",
-        "presentation"
-    ],
-    "dependencies": {
-        "yeoman-generator": "^0.17.0",
-        "chalk": "^1.0.0",
-        "yosay": "^0.3.0"
-    },
-    "devDependencies": {
-        "mocha": "*"
-    },
-    "peerDependencies": {
-        "yo": ">=1.0.0"
-    },
-    "licenses": [
-        {
-            "type": "MIT"
-        }
-    ]
+  "name": "generator-code-deck",
+  "version": "1.4.0",
+  "description": "Powerpoint for coders: automatically build code-based slideshow presentations.",
+  "license": "MIT",
+  "main": "generators/app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trevordmiller/generator-code-deck"
+  },
+  "author": {
+    "name": "Trevor D. Miller",
+    "email": "trevordmiller@icloud.com",
+    "url": "www.trevordmiller.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "generator-reveal",
+    "revealjs",
+    "reveal.js",
+    "slideshow",
+    "presentation"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.17.0",
+    "chalk": "^1.0.0",
+    "yosay": "^0.3.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
 }
