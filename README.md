@@ -1,3 +1,7 @@
+# [DEPRECATED]
+
+---
+
 ![Code Deck - Powerpoint for Coders](readme-images/logo.png)
 
 _Code Deck_ is a [Yeoman generator](http://yeoman.io/) for creating code-based slideshow presentations. It was built because HTML slideshows are awesome, **but they take too long to make**. With _Code Deck_, your project is **automatically** set up so you can focus on presenting great content.
